@@ -2,13 +2,64 @@
 <head>
     <title>Gallery of Avengers</title>
     <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-    <ol class="carousel-indicators">
-        <li data-target="#mycarousel" data-slide-to"0" class="active">
-        </li>
-        <li data-target="#mycarousel" data-slide-to"1" class="active">
-        </li>
-        </ol>
-    </body>
+</head>
+
+<body>
+   <h2>AVENGERS GALLERY</h2>
+    <div class="grid">
+        <h1>Grid gallery</h1>
+        <span>
+            <img id="one" src="download.jpg">
+            <img id="two" src="Thor-Marvel-NewsORB360-822x1024.jpg">
+            <img id="three" src="image.jpg">
+            <img id="four" src="freepressjournal_2019-09_316792ad-a159-463f-bca7-65ddac443f84_hulk_thor_ragnarok_2_1548346471.jpg">
+            <img id="five" src="download%20(1).jpg">
+            <img id="six" src="ant-man-1-main.jpg">
+        </span>
+    </div>
+    <br> <br> <br> <br>
+    <div class="container">
+        <section class="slides">
+            <h2>Sliding gallary</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel"></div>
+            <ol class="carousel-Indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                
+            </ol>
+            <div class="carousel-inner"></div>
+
+            <div class="item-active"></div>
+            <img class="img-responsive" src="download.jpg" style="width:50%; ">
+            <div class="carousel-caption">
+
+            </div>
+            <div class="item"></div>
+            <img class="img-responsive" src="Thor-Marvel-NewsORB360-822x1024.jpg" style="width:50%; ">
+            <div class="carousel-caption"></div>
+
+            <div class="item"></div>
+            <img class="img-responsive" src="image.jpg" style="width:50%; ">
+            <div class="carousel-caption"></div>
+            <div class="item"></div>
+            <img class="img-responsive" src="freepressjournal_2019-09_316792ad-a159-463f-bca7-65ddac443f84_hulk_thor_ragnarok_2_1548346471.jpg" style="width:50%; ">
+            <div class="carousel-caption"></div>
+
+            <div class="item"></div>
+            <img class="img-responsive" src="download%20(1).jpg" style="width:50%; ">
+            <div class="carousel-caption"></div>
+
+       <a class="right carousel-control" href="#mycarousel" data-slide="next">
+            <span class="right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </section>
+        <hr style="width: 100%;">
+    </div>
+</body>
 </html>

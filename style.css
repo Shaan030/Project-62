@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    background-color: red;
+}
+#one {
+    height: 1000px;
+    width: 1000px;
+    
+}
+#five {
+    height: 1000px;
+    width: 1000px;
+}
+h1 {
+    color: black;
+}
+h2 {
+    color: aqua;
+    font-size: 40px;
+}
